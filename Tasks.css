@@ -26,6 +26,7 @@ input {
   margin-right: auto;
   margin-top: 1vw;
   min-height: 0%;
+  display: none;
 }
 #task-shown {
   background-color: rgb(255, 255, 255);
@@ -55,12 +56,12 @@ input {
   position: relative;
   display: inline-block;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    7px 7px 20px 0px rgba(0, 76, 163, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 .btn-3 {
-  background: rgb(0, 79, 110);
-  background: linear-gradient(0deg, rgb(1, 5, 7) 0%, rgb(114, 114, 114) 100%);
+  background: rgb(0, 54, 75);
+  background: linear-gradient(0deg, rgb(0, 81, 255) 0%, rgb(0, 31, 51) 100%);
   width: 130px;
   height: 40px;
   line-height: 42px;
