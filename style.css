@@ -13,8 +13,18 @@ body {
 }
 
 .buttons {
-  margin: 60px;
+  margin: 100px;
   padding: 30px;
   margin-left: 20px;
   text-align: center;
+}
+.txt {
+  color: rgb(0, 54, 54);
+  text-align: center;
+  padding-top: 2vw;
+}
+.home {
+  color: rgb(0, 54, 54);
+  text-align: center;
+  padding-top: 9vw;
 }
