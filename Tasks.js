@@ -1,21 +1,24 @@
 function renderTask() {
   $("#tasks-container").show();
   var input = $("#idInput").val();
-  var allTasks = [];
-  allTasks.push(input);
   $("#tasks-container").append(
-    `<div id="task-shown">${input}<button class="remove" onclick="removeTask()" type="button">remove</button></div>`
+    `<div id="task-shown">${input}<button class="remove" onclick="removeTask()" type="button">remove</button>
+</div>`
   );
+  $("#task-shown").append();
 }
 
 function removeTask() {
   $("#task-shown").remove();
 }
 
-localStorage.setItem("monday", "monday");
-var t = localStorage.getItem("monday");
+// localStorage.setItem("monday", "monday");
+// var t = localStorage.getItem("monday");
 $(".days").append(
-  `<h1 class="txt">Your Todo list for </h1>` + `<h1 class="txt1">` + t + `</h1>`
+  `<h1 class="txt">Your Todo list for </h1>` +
+    `<h1 class="txt1">` +
+    "monday" +
+    `</h1>`
 );
 
 function reset() {

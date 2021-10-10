@@ -33,7 +33,9 @@ input {
   width: 50vw;
   height: 3vw;
   padding-top: 1vw;
+  display: inline-block;
   padding-bottom: 1vw;
+  display: inline-block;
   border-radius: 1vw;
   text-align: center;
   margin: 1vw;
@@ -48,28 +50,35 @@ input {
   line-height: 42px;
   padding: 0;
   border-radius: 1vw;
+  font-size: large;
   color: rgb(255, 255, 255);
 }
 .btn-3:hover {
-  /* background: linear-gradient(0deg, rgb(0, 31, 51) 0%, rgb(0, 81, 255) 100%); */
-  background: linear-gradient(0deg, rgb(197, 39, 0) 0%, rgb(106, 0, 128) 100%);
+  background: linear-gradient(
+    0deg,
+    rgb(117, 24, 136) 0%,
+    rgb(250, 126, 94) 100%
+  );
   color: black;
+  font-size: large;
 }
 
 .remove {
   width: 5vw;
   height: 3vw;
-  color: rgb(0, 0, 0);
-  background-color: rgb(197, 39, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 0, 54);
   border-radius: 5px;
   padding: 5px;
   font-family: "Lato", sans-serif;
-  margin-left: 70%;
+  margin-left: 65%;
   margin-bottom: 80px;
+  position: relative;
+  z-index: 20;
 }
 .remove:hover {
-  background-color: rgb(77, 0, 54);
-  color: aliceblue;
+  background-color: rgb(197, 39, 0);
+  color: rgb(0, 0, 0);
 }
 
 .txt {
