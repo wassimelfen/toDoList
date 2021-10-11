@@ -43,7 +43,7 @@ input {
   background-image: url("https://images.unsplash.com/photo-1611325058432-30bee87d45c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
 }
 
-.btn-3 {
+#btn-3 {
   background: linear-gradient(0deg, rgb(57, 0, 68) 0%, rgb(255, 65, 17) 100%);
   width: 130px;
   height: 40px;
@@ -53,7 +53,7 @@ input {
   font-size: large;
   color: rgb(255, 255, 255);
 }
-.btn-3:hover {
+#btn-3:hover {
   background: linear-gradient(
     0deg,
     rgb(117, 24, 136) 0%,
@@ -93,11 +93,34 @@ input {
   font-size: 50px;
 }
 
-.txt2 {
+#txt2 {
   color: rgb(22, 106, 175);
   text-align: center;
   padding-top: 0.5vw;
   word-spacing: 20px;
   letter-spacing: 3px;
   font-size: 35px;
+}
+
+#btn2,
+#btn3 {
+  background: linear-gradient(0deg, rgb(57, 0, 68) 0%, rgb(255, 65, 17) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border-radius: 1vw;
+  font-size: large;
+  color: rgb(255, 255, 255);
+}
+
+#btn2:hover,
+#btn3:hover {
+  background: linear-gradient(
+    0deg,
+    rgb(117, 24, 136) 0%,
+    rgb(250, 126, 94) 100%
+  );
+  color: black;
+  font-size: large;
 }

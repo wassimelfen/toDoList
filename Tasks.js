@@ -35,7 +35,7 @@ function save() {
   $("button").hide();
   $("input").hide();
   $("body").append(
-    `<h1 class="txt2">Challenge yourself to do all the tasks</h1>`
+    `<h1 class="animate__animated animate__fadeInRight" id="txt2">Challenge yourself to do all the tasks</h1>`
   );
   $("#tasks-container").css(
     "background-image",

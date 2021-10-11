@@ -6,11 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tasks</title>
     <link rel="stylesheet" href="Tasks.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <div class="days"></div>
-    <input id="idInput" placeholder="write your task here .." type="text" />
-    <button class="btn-3" onclick="renderTask()">
+    <input
+      class="animate__animated animate__fadeInTopLeft"
+      id="idInput"
+      placeholder="write your task here .."
+      type="text"
+    />
+    <button
+      class="animate__animated animate__fadeInTopRight"
+      id="btn-3"
+      onclick="renderTask()"
+    >
       <span>Add</span>
     </button>
 
@@ -18,10 +31,10 @@
       <div id="copy"></div>
     </div>
 
-    <button id="btn2" class="btn-3" onclick="save()">
+    <button id="btn2" onclick="save()">
       <span>Save</span>
     </button>
-    <button id="btn3" class="btn-3" onclick="reset()">
+    <button id="btn3" onclick="reset()">
       <span>Reset</span>
     </button>
 
