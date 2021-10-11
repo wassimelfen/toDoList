@@ -1,5 +1,6 @@
 $("#btn2").hide();
 $("#btn3").hide();
+
 function renderTask() {
   $("#btn2").show(1000);
   $("#btn3").show(1000);
@@ -9,7 +10,6 @@ function renderTask() {
     `<div id="task-shown">${input}<button class="remove" onclick="removeTask()" type="button">remove</button>
   </div>`
   );
-
   $("#task-shown").append();
 }
 
