@@ -71,7 +71,7 @@ input {
   border-radius: 5px;
   padding: 5px;
   font-family: "Lato", sans-serif;
-  margin-left: 65%;
+  margin-left: 500px;
   margin-bottom: 80px;
 }
 .remove:hover {
@@ -82,9 +82,22 @@ input {
 .txt {
   color: rgb(0, 54, 54);
   text-align: center;
-  padding-top: 2vw;
+  padding-top: 0.5vw;
+  word-spacing: 20px;
+  letter-spacing: 3px;
+  font-size: 45px;
 }
 .txt1 {
+  padding-top: 0vw;
+  color: rgb(231, 86, 50);
+  font-size: 50px;
+}
+
+.txt2 {
+  color: rgb(22, 106, 175);
+  text-align: center;
   padding-top: 0.5vw;
-  color: rgb(0, 54, 54);
+  word-spacing: 20px;
+  letter-spacing: 3px;
+  font-size: 35px;
 }
