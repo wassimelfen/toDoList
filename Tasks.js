@@ -16,9 +16,6 @@ function renderTask() {
 function removeTask() {
   $("#task-shown").remove();
 }
-
-// localStorage.setItem("monday", "monday");
-// var t = localStorage.getItem("monday");
 $(".days").append(
   `<h1 class="txt">Your Todo list for </h1>` +
     `<h1 class="txt1">` +
